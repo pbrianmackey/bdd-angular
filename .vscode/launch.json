@@ -15,6 +15,18 @@
       "request": "launch",
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/cucumber-js",
+      "args": ["${relativeFile}"],
+      "name": "Cucumber current",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+          "program": "${workspaceFolder}/node_modules/@cucumber/cucumber/bin/cucumber"
+      }
     }
   ]
 }
