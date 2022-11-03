@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "ctest": "cucumber-js",
-    "cypress": "cypress open"
+    "e2e": "cypress open --browser chrome",
+    "e2e-headless": "cypress run --browser chrome"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,8 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
     "cypress": "^10.11.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

@@ -10,6 +10,8 @@ When I try to access the website
 Then a login will request me to authenticate myself
 ```
 
+This project focuses on end-to-end testing using https://cypress.io/.  I use [cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor/blob/master/docs/quick-start.md).
+
 # What is Cucumber
 
 https://cucumber.io/docs/installation/javascript/
@@ -18,10 +20,10 @@ https://cucumber.io/docs/installation/javascript/
 
 https://cucumber.io/docs/bdd/
 
-# Visual Studio Code
+# Running the tests
 
-I include .vscode/launch.json as an example of how to modify this file so that you can debug individual tests. 
+## Run Cypress tests at the command line
+npm run e2e-headless
 
-# Running all tests in cucumber-js
-
-npm run ctest
+## Run Cypress tests in the UI
+npm run e2e
