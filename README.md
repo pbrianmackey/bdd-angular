@@ -18,6 +18,10 @@ https://cucumber.io/docs/installation/javascript/
 
 https://cucumber.io/docs/bdd/
 
-# Running cucumber-js
+# Visual Studio Code
+
+I include .vscode/launch.json as an example of how to modify this file so that you can debug individual tests. 
+
+# Running all tests in cucumber-js
 
 npm run ctest
