@@ -2,7 +2,7 @@
 
 Template project for using Cucumber-js in Angular.  Cucumber is a library for running BDD tests in Angular.
 
-I believe BDD is one of the most effective ways to ease communication between business and development.  The syntax is very simple.  You have a "Scenario" that uses the language "Given, When, Then" to describe a single requirment.  For example:
+I believe BDD is one of the most effective ways to ease communication between business and development.  The Gherkin syntax is simple.  You have a "Scenario" that uses the language "Given, When, Then" to describe a single requirement.  For example:
 
 ```
 Given I have a website  
