@@ -16,14 +16,14 @@ https://cucumber.io/docs/bdd/
 
 # Running the tests
 
-## Run the project
+## Start the project before you run Cypress
 
 npm run start
-
-## Run Cypress tests at the command line
-
-npm run e2e-headless
 
 ## Run Cypress tests in the UI
 
 npm run e2e
+
+## Run Cypress tests at the command line
+
+npm run e2e-headless
