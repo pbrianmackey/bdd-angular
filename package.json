@@ -7,7 +7,6 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "ctest": "cucumber-js",
     "e2e": "cypress open --browser chrome",
     "e2e-headless": "cypress run --browser chrome"
   },
