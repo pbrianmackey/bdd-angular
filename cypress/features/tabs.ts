@@ -1,7 +1,7 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
 
 Given('I visit the website', () => {
-  cy.visit('http://localhost:4200');
+  cy.visit('https://pbrianmackey.github.io/bdd-angular/');
 });
 
 When('I view tab one', () => {});
