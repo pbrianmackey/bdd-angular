@@ -27,3 +27,7 @@ npm run e2e
 ## Run Cypress tests at the command line
 
 npm run e2e-headless
+
+# Site Hosting
+
+https://pbrianmackey.github.io/bdd-angular/
