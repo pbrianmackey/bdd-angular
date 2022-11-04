@@ -34,5 +34,5 @@ https://pbrianmackey.github.io/bdd-angular/
 
 # Other
 
-Complex setups may require [using a webpack preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/example)  
+Complex setups may require [using a webpack preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/example) in cypress.config.ts
 and [webpack polyfills for node](https://github.com/Richienb/node-polyfill-webpack-plugin)
