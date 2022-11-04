@@ -31,3 +31,8 @@ npm run e2e-headless
 # Site Hosting
 
 https://pbrianmackey.github.io/bdd-angular/
+
+# Other
+
+Complex setups may require [using a webpack preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/example)  
+and [webpack polyfills for node](https://github.com/Richienb/node-polyfill-webpack-plugin)
