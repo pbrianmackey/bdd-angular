@@ -36,3 +36,5 @@ https://pbrianmackey.github.io/bdd-angular/
 
 Complex setups may require [using a webpack preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/example) in cypress.config.ts
 and [webpack polyfills for node](https://github.com/Richienb/node-polyfill-webpack-plugin)
+
+See also [Specflow for .NET](https://github.com/SpecFlowOSS/SpecFlow-Examples/blob/master/.NET%206/ClassLibrary/SpecFlowCalculator.Specs/Features/Calculator.feature)
